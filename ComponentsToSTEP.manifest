@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Dominik Kowalczyk",
+	"description":	{
+		"":	"Moves all bodies to separate components. Exports all components to STEP files on desktop"
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
