@@ -76,7 +76,7 @@ def run(context):
         expComps = ""
         # export the component one by one with a specified format
         for comp in allComps:
-            compName = comp.name
+            compName = sanitize(comp.name)
             filePath = os.path.join(desktopPath, compName)
             # Create an STEPExportOptions object and do the export.
             stepOptions = exportMgr.createSTEPExportOptions(filePath, comp)
