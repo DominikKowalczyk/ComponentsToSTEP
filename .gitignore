@@ -3,3 +3,6 @@
 
 # Ignore .gitattributes file
 .gitattributes
+
+# Ignore Fusion360 env file
+.env
